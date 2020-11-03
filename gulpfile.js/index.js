@@ -92,7 +92,7 @@ exports.bs = bs;
 exports.img = img;
 
 exports.default = parallel([html, css, js, img, bs], () => {
-  watch('./src/pug/**', html);
+  // watch('./src/pug/**', html);
   watch('./src/scss/**', css);
   watch('./src/js/**', js);
   watch('./src/img/**', img);

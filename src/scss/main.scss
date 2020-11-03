@@ -1,12 +1,2 @@
-@import 'reset';
-
-.wrapper {
-  font-family: 'Courier New', Courier, monospace;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 70vh;
-  h1 {
-    font-weight: 400;
-  }
-}
+@import "reset";
+@import "./components/common/header";
