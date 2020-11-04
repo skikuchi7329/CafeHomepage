@@ -1,1 +1,1 @@
-*,::after,::before{margin:0;padding:0;box-sizing:border-box}.header{color:#000}
+*,::after,::before{margin:0;padding:0;box-sizing:border-box}@i @import "./components/common/header";
