@@ -27,5 +27,13 @@
     text-indent: 100%;
     white-space: nowrap;
     cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border: 1px solid $color-black;
+    border-radius: 10px;
+    margin-right: 20px;
+    &:last-child {
+      margin-right: 0;
+    }
   }
 }
