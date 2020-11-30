@@ -163,6 +163,3 @@ function imageSlide (id, options) {
     }
 
 }
-
-
-
