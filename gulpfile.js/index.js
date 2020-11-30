@@ -47,7 +47,7 @@ function css() {
 }
 
 function js() {
-  return src('./src/js/*.js', { sourcemaps: true })
+  return src('./src/js/**/*.js', { sourcemaps: true })
     .pipe($.plumber())
     .pipe(uglify({ output: { comments: /^!/ } }))
     .pipe(
