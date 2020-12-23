@@ -608,7 +608,7 @@ a:hover {
   display: -webkit-box;
   display: flex;
   -webkit-box-flex: 1;
-          flex: 1 1 50%;
+  flex: 1 1 50%;
   margin: 0;
   padding: 0; }
 
