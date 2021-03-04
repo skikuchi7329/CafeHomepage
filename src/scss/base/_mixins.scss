@@ -1,4 +1,9 @@
 @mixin menu-font() {
-  font-family: "Lato";
+  font-family: $font-sub;
   font-weight: 400;
+}
+
+@mixin title-font() {
+  font-family: $font-sub;
+  font-weight: 300;
 }
